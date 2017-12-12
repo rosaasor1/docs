@@ -383,7 +383,7 @@ minutes: Enacted, Looping, Waiting, and Warning:
 
 ### All of a sudden, Nightscout is no longer showing treatments (bolus, carbs, finger BGs) on the graph or rendering my basals.
 
-If you suddenly find that Nightscout is not showing treatments (bolus, carbs, finger BGs etc.) on the graph; and/or that your basals are no longer being rendered in the blue basal line; but otherwise, everything looks normal and you are looping properly:
+If you suddenly find that Nightscout is not showing treatments (bolus, carbs, finger BGs etc.) on the graph; and/or that your basals are no longer being rendered in the blue basal line; but otherwise, everything looks normal and you are looping properly. If you are using the pump bolus wizard, only enter a carb value without a BG reading since Nightscout will not display the carb and bolus correctly.
 
 You probably somehow got a future-dated treatment. One possible reason is a clock-time mismatch between your devices - for example, your BG meter, pump, CGM, or OpenAPS rig may have different dates or times set.
 
